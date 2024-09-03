@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-inter: Inter;
+  --font-segoe-ui: "Segoe UI";
+
+  /* font sizes */
+  --font-size-5xs: 0.5rem;
+  --font-size-sm-2: 0.825rem;
+  --font-size-lgi-7: 1.231rem;
+  --font-size-5xs-9: 0.494rem;
+  --font-size-5xs-8: 0.488rem;
+  --font-size-sm-5: 0.844rem;
+  --font-size-lgi-5: 1.219rem;
+  --font-size-lgi-6: 1.225rem;
+  --font-size-sm-4: 0.838rem;
+  --font-size-5xs-6: 0.475rem;
+  --font-size-smi-7: 0.794rem;
+  --font-size-smi-9: 0.806rem;
+  --font-size-lgi-4: 1.213rem;
+  --font-size-sm-6: 0.85rem;
+  --font-size-xs-6: 0.725rem;
+  --font-size-7xl-5: 1.656rem;
+  --font-size-2xl: 1.313rem;
+  --font-size-7xl-2: 1.638rem;
+  --font-size-7xl-1: 1.631rem;
+  --font-size-smi-8: 0.8rem;
+  --font-size-xs: 0.75rem;
+  --font-size-xs-8: 0.738rem;
+  --font-size-lgi-3: 1.206rem;
+  --font-size-lgi: 1.188rem;
+  --font-size-mini-1: 0.881rem;
+  --font-size-lg-6: 1.163rem;
+  --font-size-mini-2: 0.888rem;
+
+  /* Colors */
+  --color-gray-100: #777;
+  --color-gray-200: #111;
+  --color-gray-300: rgba(0, 0, 0, 0.25);
+  --color-black: #000;
+  --color-white: #fff;
+  --color-lightskyblue: #99ccff;
+  --color-red: #fe1817;
+  --color-dimgray: #555;
+  --color-crimson-100: #ff0033;
+  --color-paleturquoise: #99ffff;
+  --color-blueviolet: #6633cc;
+
+  /* Gaps */
+  --gap-0: 0rem;
+  --gap-xl: 1.25rem;
+  --gap-42xl: 3.813rem;
+  --gap-xs: 0.75rem;
+  --gap-59xl: 4.875rem;
+  --gap-243xl: 16.375rem;
+  --gap-lg: 1.125rem;
+  --gap-175xl: 12.125rem;
+  --gap-210xl: 14.313rem;
+  --gap-mid: 1.063rem;
+  --gap-244xl: 16.438rem;
+  --gap-209xl: 14.25rem;
+
+  /* Paddings */
+  --padding-xl: 1.25rem;
+  --padding-xs: 0.75rem;
+  --padding-41xl: 3.75rem;
+  --padding-smi: 0.813rem;
+  --padding-11xs: 0.125rem;
+  --padding-6xs: 0.438rem;
+  --padding-12xs: 0.063rem;
+  --padding-lg: 1.125rem;
+  --padding-mid: 1.063rem;
+  --padding-lgi: 1.188rem;
+
+  /* Border radiuses */
+  --br-9980xl: 9999px;
+}
