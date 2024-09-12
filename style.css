@@ -184,12 +184,10 @@
 }
 
 .compound-interest {
-  color: white;
   position: relative;
   letter-spacing: 0.4px;
   line-height: 0.754rem;
   text-transform: uppercase;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .divpb-21 {
@@ -213,10 +211,10 @@
   margin: 1;
   position: relative;
   font-size: var(--font-size-lgi);
-  line-height: 25px;
+  line-height: 22px;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: inherit;
   z-index: 2;
 }
 
@@ -376,6 +374,7 @@
 
 .sam-altman-denies-container {
   position: relative;
+  line-height: 22px;
   font-size: 18px;
   float: left;
   text-transform: uppercase;
@@ -538,6 +537,7 @@ line-height:23px;
 .alien-civilizations-may-container {
   position: relative;
   font-size: 1.181rem;
+  line-height: 22px;
   height: 100px;
   text-transform: uppercase;
   z-index: 2;
@@ -696,6 +696,8 @@ line-height:23px;
 
 .microsoft-copilot-tells-container {
   position: relative;
+  top: 15px;
+  line-height: 22px;
   font-size: 18px;
   height: 65px;
   text-transform: uppercase;
@@ -792,15 +794,16 @@ line-height:23px;
 
 .image-icon5 {
   position: absolute;
-  height: calc(100% + 0.3px);
-  width: calc(100% + 0.3px);
-  top: -0.006rem;
+  margin-top: -30px;
+  height: 700px;
+  width: 500px;
+  top: -10px;
   right: -0.012rem;
-  bottom: -0.012rem;
+  bottom: 50px;
   left: -0.006rem;
   max-width: 100%;
   overflow: hidden;
-  max-height: 100%;
+  max-height: 110%;
   object-fit: cover;
 }
 
@@ -812,19 +815,20 @@ line-height:23px;
 }
 
 .divabsolute9 {
-  top: -0.006rem;
-  right: -0.012rem;
-  bottom: -0.012rem;
-  left: -0.006rem;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-color: var(--color-gray-300);
   z-index: 1;
 }
 
+
 .frame-div {
-  margin: 0 !important;
-  top: 0.006rem;
+  margin: 0;
+  top: 0px;
   right: 0.022rem;
-  bottom: 0.013rem;
+  bottom: 0px;
   left: -0.003rem;
 }
 
@@ -854,8 +858,9 @@ line-height:23px;
 
 .satellite-spots-circular-container {
   position: relative;
+  top: 15px;
   font-size: var(--font-size-lgi-5);
-  line-height: 2.109rem;
+  line-height: 22px;
   text-transform: uppercase;
   z-index: 2;
 }
@@ -929,6 +934,7 @@ line-height:23px;
 
 .divabsolute8 {
   flex: 1;
+  margin-top: 35px;
   background-color: var(--color-paleturquoise);
   flex-direction: column;
   justify-content: flex-start;
@@ -941,12 +947,13 @@ line-height:23px;
 .link-satellite-spots-circula {
   width: 20.563rem;
   background-color: var(--color-gray-200);
-  box-shadow: -4px 4px 0#9ff;
+  box-shadow: -4px 4px 0#9cf;
   border: 1px solid var(--color-black);
   flex-direction: row;
   justify-content: center;
   padding: var(--padding-12xs);
 }
+
 
 .image-icon6 {
   position: absolute;
@@ -1014,7 +1021,7 @@ line-height:23px;
   height: 6.331rem;
   position: relative;
   font-size: var(--font-size-lg-6);
-  line-height: 2.109rem;
+  line-height: 22px;
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -1641,7 +1648,6 @@ line-height:23px;
 }
 
 .divpb-210 {
-  color: white;
   align-self: stretch;
   border-bottom: 1px solid var(--color-white);
   display: flex;
@@ -2134,9 +2140,12 @@ height: 135px;
 
 .social3 {
   color: var(--color-white);
-
 }
 
+.social-txt1 {
+  line-break: anywhere;
+  width: 100%;
+}
 
 .social2 {
   width: 7rem; /* Aumenta a largura para acomodar a palavra completa */
@@ -2192,27 +2201,6 @@ height: 135px;
   text-overflow: ellipsis;
 }
 
-.social-frame-parent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.188rem 0;
-  max-width: 100%;
-}
-
-.disclaimers,
-.link-privacy {
-  position: relative;
-  line-height: 1.125rem;
-}
-
-.terms-conditions-links {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-xs) 0 0;
-}
 
 .terms-conditions {
   position: relative;
@@ -2272,11 +2260,9 @@ height: 135px;
 
 .articles-may-contain-container,
 .recurrent-ventures-inc {
-  height: 5px;
-  font-size: 15px;
-  display: block; /* Garante que o texto ocupe uma linha completa */
-  text-align: center; /* Alinha o texto ao centro */
-  margin-top: 1px; /* Espaçamento superior para separar dos elementos acima */
+  position: relative;
+  font-size: var(--font-size-xs-6);
+  line-height: 1.125rem;
 }
 
 .contact-us-frame,
@@ -2399,6 +2385,11 @@ height: 135px;
 
   .divabsolute22 {
     gap: 16.375rem 0;
+  }
+
+  .social2 {
+    font-size: var(--font-size-2xl);
+    line-height: 2rem;
   }
 
   .newsletter {
